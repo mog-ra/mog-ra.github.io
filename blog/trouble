@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="退職時に起こりがちなトラブルとその対処法をわかりやすく解説。引き止め、離職票の未交付、有給消化拒否など、よくある事例をもとに対策を紹介します。" />
+  <meta name="keywords" content="退職トラブル, 有給拒否, 離職票もらえない, 退職引き止め, 退職対処法" />
+  <meta name="author" content="退職代行もぉゴメン" />
+  <title>退職時のよくあるトラブルと対処法</title>
+  <style>
+    body {
+      font-family: 'Helvetica Neue', sans-serif;
+      margin: 0;
+      padding: 2rem;
+      background-color: #fefefe;
+      color: #333;
+      line-height: 1.8;
+    }
+    h1, h2, h3 {
+      color: #00796b;
+    }
+    a.back-button {
+      display: inline-block;
+      margin: 1rem 0;
+      padding: 0.7rem 1.2rem;
+      background-color: #4CAF50;
+      color: white;
+      text-decoration: none;
+      border-radius: 5px;
+      font-weight: bold;
+    }
+    a.back-button:hover {
+      background-color: #43a047;
+    }
+    section {
+      max-width: 800px;
+      margin: 0 auto;
+      background-color: #fff;
+      padding: 2rem;
+      border-radius: 8px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.05);
+    }
+    .trouble {
+      background: #f1f8f6;
+      padding: 1rem;
+      margin-bottom: 1.5rem;
+      border-left: 5px solid #00796b;
+    }
+  </style>
+</head>
+<body>
+
+<a class="back-button" href="../index.html">← トップページに戻る</a>
+
+<section>
+  <h1>退職時のよくあるトラブルと対処法</h1>
+
+  <p>
+    退職は人生の大きな転機ですが、その際にはさまざまなトラブルが発生することも少なくありません。<br>
+    特に<strong>ブラック企業や理解のない上司</strong>がいる職場では、退職がスムーズに進まないケースも…。<br>
+    この記事では、<strong>退職時によくあるトラブルとその対処法</strong>を初心者向けにわかりやすく解説します。
+  </p>
+
+  <h2>① 引き止めにあって辞められない</h2>
+  <div class="trouble">
+    <p><strong>状況例：</strong><br>
+      「今辞められたら困る」「次が見つかってからにしろ」など、情に訴えて退職を阻止しようとするケース。
+    </p>
+    <p><strong>対処法：</strong><br>
+      退職は<strong>労働者の権利</strong>。民法では2週間前に申し出れば原則退職可能です。感情的なやり取りを避けるため、書面での通知が有効です。
+    </p>
+  </div>
+
+  <h2>② 有給休暇の消化を拒否される</h2>
+  <div class="trouble">
+    <p><strong>状況例：</strong><br>
+      「人手不足だから有給は使えない」「退職者に有給は認めない」などと言われる。
+    </p>
+    <p><strong>対処法：</strong><br>
+      有給休暇は労働者の<strong>法律上の権利</strong>であり、正当な理由なく拒否することはできません。事前に時季指定をし、証拠を残しておくことが大切です。
+    </p>
+  </div>
+
+  <h2>③ 離職票を送ってくれない</h2>
+  <div class="trouble">
+    <p><strong>状況例：</strong><br>
+      退職後1週間以上経っても離職票が届かず、ハローワークの手続きに支障が出る。
+    </p>
+    <p><strong>対処法：</strong><br>
+      離職票は<strong>退職者の請求により交付義務があります</strong>。会社に請求し、それでも対応されない場合はハローワーク経由で強制的に発行を促すことも可能です。
+    </p>
+  </div>
+
+  <h2>④ 退職届を受理してもらえない</h2>
+  <div class="trouble">
+    <p><strong>状況例：</strong><br>
+      「話し合いが終わるまで受け取らない」と退職届を拒否される。
+    </p>
+    <p><strong>対処法：</strong><br>
+      退職届は<strong>提出した時点で効力が生じる</strong>とされています。内容証明郵便などで送付することで証拠を残すのが効果的です。
+    </p>
+  </div>
+
+  <h2>⑤ 私物や給与を返してもらえない</h2>
+  <div class="trouble">
+    <p><strong>状況例：</strong><br>
+      ロッカーの中の荷物が処分されたり、退職後に給与や交通費が未払いになっている。
+    </p>
+    <p><strong>対処法：</strong><br>
+      労働基準監督署への相談や、内容証明で請求を行う方法があります。証拠として、就業規則や給与明細のコピーも保管しておきましょう。
+    </p>
+  </div>
+
+  <h2>まとめ：一人で悩まず、対策を知れば怖くない</h2>
+  <p>
+    退職時のトラブルは決して珍しくありません。しかし、<strong>法的な知識と適切な対応</strong>を知っておけば、冷静に乗り越えることが可能です。<br>
+    一人で対処が難しいと感じたら、退職代行サービスを利用するのも有効な選択肢の一つです。
+  </p>
+
+  <p>
+    「もう自分では限界…」と感じた方へ。<strong>退職の専門家に相談して、安心して次の一歩を踏み出しましょう。</strong>
+  </p>
+
+  <a class="back-button" href="../index.html">← トップページに戻る</a>
+</section>
+
+</body>
+</html>
