@@ -22,37 +22,22 @@
       padding: 3rem 2rem;
       text-align: center;
     }
-    header h2, header h1, header p {
-      text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.6);
+    header h2 {
+      font-size: 1.2rem;
+      margin-bottom: 0.5rem;
+      text-shadow: 1px 1px 2px #000;
+      color: white;
+      letter-spacing: 1px;
     }
     header h1 {
       font-size: 2rem;
       margin-bottom: 1rem;
+      text-shadow: 1px 1px 2px #000;
+      color: white;
     }
-    header h2 {
-      font-size: 1.2rem;
-      margin-bottom: 0.5rem;
-    }
-    section {
-      padding: 2rem 1.5rem;
-      max-width: 800px;
-      margin: 1rem auto;
-    }
-    .card {
-      background-color: white;
-      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
-      border-radius: 12px;
-      padding: 2rem;
-      margin-bottom: 2rem;
-    }
-    h1, h2 {
-      color: #00796b;
-    }
-    ul, ol {
-      padding-left: 1.2rem;
-    }
-    ul li::marker {
-      color: #45cbbd;
+    header p {
+      color: white;
+      text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.6);
     }
     .button {
       display: inline-block;
@@ -67,11 +52,31 @@
     .button:hover {
       background-color: #43a047;
     }
-    footer {
-      text-align: center;
-      font-size: 0.9rem;
-      padding: 1rem;
-      background: #eee;
+    .card-container {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 1.5rem;
+      padding: 2rem 1.5rem;
+      max-width: 1200px;
+      margin: 0 auto;
+    }
+    .card {
+      background-color: white;
+      padding: 2rem;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+      border-radius: 8px;
+      flex: 1 1 300px;
+      max-width: 500px;
+    }
+    .card h2 {
+      color: #00796b;
+    }
+    ul, ol {
+      padding-left: 1.2rem;
+    }
+    ul li::marker {
+      color: #45cbbd;
     }
     details {
       margin-bottom: 1rem;
@@ -88,11 +93,18 @@
     details[open] summary {
       color: #004d40;
     }
+    footer {
+      text-align: center;
+      font-size: 0.9rem;
+      padding: 1rem;
+      background: #eee;
+    }
     @media (max-width: 600px) {
       header h1 {
         font-size: 1.5rem;
       }
-      section {
+      .card-container {
+        flex-direction: column;
         padding: 1.5rem 1rem;
       }
     }
@@ -107,121 +119,112 @@
   <a class="button" href="https://lin.ee/rFcstUm3" target="_blank">LINEで無料相談する</a>
 </header>
 
-<section class="card">
-  <h2>こんなお悩み、ありませんか？</h2>
-  <ul>
-    <li>「会社に行くのがつらい、でも辞められない…」</li>
-    <li>「辞めたいと言い出せず、ズルズル続いている」</li>
-    <li>「退職したいけど、手続きや書類がわからない」</li>
-    <li>「上司に怒られるのが怖い」</li>
-    <li>「家族や周囲に相談できない」</li>
-    <li>「次の職場が決まる前でも辞められるの？」</li>
-  </ul>
-  <p>一人で抱え込まず、退職のプロにご相談ください。あなたの人生の一歩を、私たちが支えます。</p>
-</section>
+<div class="card-container">
+  <section class="card">
+    <h2>こんなお悩み、ありませんか？</h2>
+    <ul>
+      <li>「会社に行くのがつらい、でも辞められない…」</li>
+      <li>「辞めたいと言い出せず、ズルズル続いている」</li>
+      <li>「退職したいけど、手続きや書類がわからない」</li>
+      <li>「上司に怒られるのが怖い」</li>
+      <li>「家族や周囲に相談できない」</li>
+      <li>「次の職場が決まる前でも辞められるの？」</li>
+    </ul>
+    <p>一人で抱え込まず、退職のプロにご相談ください。あなたの人生の一歩を、私たちが支えます。</p>
+  </section>
 
-<section class="card">
-  <h2>私たちが選ばれる理由</h2>
-  <ul>
-    <li><strong>安心退職：</strong> 専門家と連携した合法・安心の退職</li>
-    <li><strong>定額料金：</strong> 19,800円（税込）・追加費用なし</li>
-    <li><strong>全国対応：</strong> LINEで完結・匿名相談もOK</li>
-    <li><strong>即日対応：</strong> ご相談当日に会社へ連絡も可能</li>
-    <li><strong>守秘徹底：</strong> 個人情報は外部に一切開示しません</li>
-  </ul>
-</section>
+  <section class="card">
+    <h2>私たちが選ばれる理由</h2>
+    <ul>
+      <li><strong>安心退職：</strong> 専門家と連携した合法・安心の退職</li>
+      <li><strong>定額料金：</strong> 19,800円（税込）・追加費用なし</li>
+      <li><strong>全国対応：</strong> LINEで完結・匿名相談もOK</li>
+      <li><strong>即日対応：</strong> ご相談当日に会社へ連絡も可能</li>
+      <li><strong>守秘徹底：</strong> 個人情報は外部に一切開示しません</li>
+    </ul>
+  </section>
 
-<section class="card">
-  <h2>運営者情報・信頼性</h2>
-  <p><strong>退職代行もぉゴメン by MOG Solutions</strong>（運営：<strong>合同会社MOG</strong>）は、法令に則った安心の退職サポートを提供しています。</p>
-  <ul>
-    <li>✓ 社会保険労務士と連携した対応</li>
-    <li>✓ 明確な料金体系・追加費用なし</li>
-    <li>✓ 守秘義務とプライバシーを厳守</li>
-    <li>✓ 特定商取引法の表示・契約書面あり</li>
-  </ul>
-  <p>運営法人：合同会社MOG</p>
-</section>
+  <section class="card">
+    <h2>運営者情報・信頼性</h2>
+    <p><strong>退職代行もぉゴメン by MOG Solutions</strong>（運営：<strong>合同会社MOG</strong>）は、法令に則った安心の退職サポートを提供しています。</p>
+    <ul>
+      <li>✓ 社会保険労務士と連携した対応</li>
+      <li>✓ 明確な料金体系・追加費用なし</li>
+      <li>✓ 守秘義務とプライバシーを厳守</li>
+      <li>✓ 特定商取引法の表示・契約書面あり</li>
+    </ul>
+    <p>運営法人：合同会社MOG<br>
+    <!--連絡先：<a href="mailto:mog.resignation.agency@gmail.com">mog.resignation.agency@gmail.com</a>--></p>
+  </section>
 
-<section class="card">
-  <h2>お客様の声</h2>
-  <blockquote>「精神的に限界だった時に、LINEで話を聞いてもらえて救われました。会社にも一切行かずに退職できて、本当に感謝しています。」<br><cite>— 20代 女性（販売職）</cite></blockquote>
-  <blockquote>「最初は不安でしたが、明確な説明と素早い対応で安心できました。親にも知られずに辞められました。」<br><cite>— 30代 男性（IT企業）</cite></blockquote>
-  <p>※一部内容を要約・匿名加工しています。</p>
-</section>
+  <section class="card">
+    <h2>お客様の声</h2>
+    <blockquote>
+      「精神的に限界だった時に、LINEで話を聞いてもらえて救われました。会社にも一切行かずに退職できて、本当に感謝しています。」<br>
+      <cite>— 20代 女性（販売職）</cite>
+    </blockquote>
+    <blockquote>
+      「最初は不安でしたが、明確な説明と素早い対応で安心できました。親にも知られずに辞められました。」<br>
+      <cite>— 30代 男性（IT企業）</cite>
+    </blockquote>
+    <p>※一部内容を要約・匿名加工しています。</p>
+  </section>
 
-<section class="card">
-  <h2>料金プラン</h2>
-  <p>安心の定額：<strong>19,800円（税込）</strong></p>
-  <ul>
-    <li>✓ 即日対応</li>
-    <li>✓ 会社への連絡代行</li>
-    <li>✓ 書類サポート・相談無制限</li>
-    <li>✓ 退職完了まで伴走サポート</li>
-  </ul>
-</section>
+  <section class="card">
+    <h2>料金プラン</h2>
+    <p>安心の定額：<strong>19,800円（税込）</strong></p>
+    <ul>
+      <li>✓ 即日対応</li>
+      <li>✓ 会社への連絡代行</li>
+      <li>✓ 書類サポート・相談無制限</li>
+      <li>✓ 退職完了まで伴走サポート</li>
+    </ul>
+  </section>
 
-<section class="card">
-  <h2>ご利用の流れ（簡単4ステップ）</h2>
-  <ol>
-    <li>LINEまたはフォームから無料相談</li>
-    <li>お申し込み・お支払い</li>
-    <li>当社が会社へ退職の連絡</li>
-    <li>退職完了までしっかりサポート</li>
-  </ol>
-</section>
+  <section class="card">
+    <h2>ご利用の流れ（簡単4ステップ）</h2>
+    <ol>
+      <li>LINEまたはフォームから無料相談</li>
+      <li>お申し込み・お支払い</li>
+      <li>当社が会社へ退職の連絡</li>
+      <li>退職完了までしっかりサポート</li>
+    </ol>
+  </section>
 
-<section class="card">
-  <h2>退職代行のお役立ちブログ</h2>
-  <p>退職に関する疑問や不安にプロの視点で答えます。</p>
-  <ul>
-    <li><a href="/blog/taishoku-guide.html">退職代行とは？初心者向けガイド【2025年最新版】</a></li>
-    <li><a href="/blog/taishoku-souba.html">退職代行の費用相場は？安さだけで選んで大丈夫？【2025年最新版】</a></li>
-    <li><a href="/blog/taishoku-mondai.html">退職時のよくあるトラブルと対処法</a></li>
-    <li><a href="/blog/jirei-itshoku.html">実録：退職代行で即日退職できた事例集</a></li>
-    <li><a href="/blog/yukyuu-shouka.html">有給消化を確実にする方法とは？</a></li>
-  </ul>
-</section>
+  <section class="card">
+    <h2>退職代行のお役立ちブログ</h2>
+    <p>退職に関する疑問や不安にプロの視点で答えます。</p>
+    <ul>
+      <li><a href="/blog/taishoku-guide.html">退職代行とは？初心者向けガイド【2025年最新版】</a></li>
+      <li><a href="/blog 
+      <li><a href="/blog/black-kigyou.html">ブラック企業から抜け出すには？安全に退職する方法</a></li>
+      <li><a href="/blog/keiken-dan.html">実際に退職代行を使った人の体験談3選</a></li>
+    </ul>
+  </section>
 
-<section class="card faq">
-  <h2>よくある質問</h2>
-  <details><summary>Q. 本当に退職できますか？</summary><p>A. はい、これまでご依頼いただいたすべての方が無事に退職されています。</p></details>
-  <details><summary>Q. 上司と一切連絡を取りたくないのですが…</summary><p>A. ご本人が会社と連絡を取る必要は一切ありません。当社がすべて代行します。</p></details>
-  <details><summary>Q. 職場に行かずに辞められますか？</summary><p>A. はい、出社せずに退職することが可能です。</p></details>
-  <details><summary>Q. 会社から訴えられることはありませんか？</summary><p>A. 正当な手続きのもとで進めるため、トラブルに発展することは基本的にありません。</p></details>
-  <details><summary>Q. 親に知られたくないのですが可能ですか？</summary><p>A. はい。連絡はすべてLINEやメールで行うため、親に知られる心配はありません。</p></details>
-  <details><summary>Q. 離職票などの書類はもらえますか？</summary><p>A. 必要書類は会社に請求し、受け取れるようサポートします。</p></details>
-  <details><summary>Q. 転職先にバレたりしませんか？</summary><p>A. 退職代行を使ったことが外部に知られることはありません。</p></details>
-  <details><summary>Q. 有給消化や未払い残業代についても相談できますか？</summary><p>A. はい。希望があれば交渉や専門家の紹介も可能です。</p></details>
-  <details><summary>Q. 支払い方法は？</summary><p>A. 銀行振込、クレジットカードなどに対応しています。</p></details>
-  <details><summary>Q. 無料相談だけでも大丈夫ですか？</summary><p>A. はい。無理な営業は一切いたしません。お気軽にご相談ください。</p></details>
-</section>
-
-<section class="card">
-  <h2>まずは無料相談から</h2>
-  <p>24時間受付中。お気軽にご相談ください。匿名でも大丈夫です。</p>
-  <a class="button" href="https://lin.ee/rFcstUm3" target="_blank">LINEで相談する</a>
-</section>
-
-<section class="card">
-  <h2>フォームからのお問い合わせ</h2>
-  <p>LINE以外でのお問い合わせはこちらのフォームをご利用ください。</p>
-  <iframe 
-    src="https://docs.google.com/forms/d/e/1FAIpQLScO6mUwR8h5E5WHxB2u-93m6k95iZS9TJE8FwXEfXWChdkDhw/viewform?embedded=true" 
-    width="100%" 
-    height="2655" 
-    frameborder="0" 
-    marginheight="0" 
-    marginwidth="0"
-    style="border: none; max-width: 100%;">
-    読み込んでいます…
-  </iframe>
-</section>
+  <section class="card">
+    <h2>よくあるご質問（FAQ）</h2>
+    <details>
+      <summary>Q. 本当に会社に行かなくて済むんですか？</summary>
+      <p>A. はい、ご相談当日から出社不要で退職を進めることが可能です。</p>
+    </details>
+    <details>
+      <summary>Q. 退職代行を使ったことが会社にバレたりしませんか？</summary>
+      <p>A. 会社に伝える情報は最低限で、個人情報の管理も徹底しています。ご安心ください。</p>
+    </details>
+    <details>
+      <summary>Q. 親や家族に知られずに退職できますか？</summary>
+      <p>A. はい、LINEでのやり取りだけで完結できます。郵送物などの相談も可能です。</p>
+    </details>
+    <details>
+      <summary>Q. 辞めさせてもらえなかったらどうしますか？</summary>
+      <p>A. ご安心ください。日本の労働法では「退職の自由」が保障されており、退職は必ず可能です。</p>
+    </details>
+  </section>
+</div>
 
 <footer>
-  <p>運営者：合同会社MOG<br />
-  メール：mog.resignation.agency@gmail.com<br />
-  <a href="tokutei.html">特定商取引法に基づく表記</a></p>
+  <p>&copy; 2025 退職代行もぉゴメン by MOG Solutions｜<a href="/policy.html">プライバシーポリシー</a>｜<a href="/terms.html">利用規約</a></p>
 </footer>
 
 </body>
