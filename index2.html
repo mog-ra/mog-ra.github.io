@@ -9,203 +9,183 @@
   <title>退職代行もぉゴメン by MOG Solutions</title>
   <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;700&display=swap" rel="stylesheet">
   <style>
-    :root {
-      --primary-color: #00796b;
-      --accent-color: #4CAF50;
-      --light-bg: #f9f9f9;
-      --dark-text: #333;
-      --soft-shadow: rgba(0, 0, 0, 0.1);
-    }
-
-    body {
+    * {
+      box-sizing: border-box;
       margin: 0;
       padding: 0;
+    }
+    body {
       font-family: 'Noto Sans JP', sans-serif;
-      background-color: var(--light-bg);
-      color: var(--dark-text);
+      background-color: #f4f4f4;
+      color: #333;
       line-height: 1.8;
     }
-
     header {
-      background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('A_digital_photograph_depicts_three_young_professio.jpg') center/cover no-repeat;
+      background: linear-gradient(to bottom, rgba(0,0,0,0.4), rgba(0,0,0,0.6)), url('A_digital_photograph_depicts_three_young_professio.jpg') center/cover no-repeat;
       color: white;
       text-align: center;
-      padding: 4rem 1.5rem;
+      padding: 4rem 2rem;
     }
     header h1 {
-      font-size: 2.5rem;
-      margin: 0.5rem 0;
+      font-size: 2.2rem;
+      margin-bottom: 1rem;
     }
     header p {
       font-size: 1.1rem;
     }
-
     .button {
       display: inline-block;
-      background-color: var(--accent-color);
-      color: white;
-      padding: 0.8rem 2rem;
-      margin-top: 1.5rem;
+      background-color: #4CAF50;
+      color: #fff;
+      padding: 1rem 2rem;
+      border-radius: 50px;
       text-decoration: none;
-      border-radius: 6px;
-      transition: background 0.3s ease;
+      margin-top: 1.5rem;
       font-weight: bold;
+      transition: background 0.3s;
     }
     .button:hover {
       background-color: #43a047;
     }
-
-    main {
-      max-width: 900px;
-      margin: 0 auto;
-      padding: 2rem 1rem;
-    }
-
     section {
-      background: white;
-      border-radius: 10px;
-      box-shadow: 0 4px 10px var(--soft-shadow);
-      margin-bottom: 2rem;
+      max-width: 960px;
+      margin: 2rem auto;
       padding: 2rem;
+      background-color: white;
+      border-radius: 12px;
+      box-shadow: 0 0 12px rgba(0,0,0,0.05);
     }
-
     h2 {
-      color: var(--primary-color);
-      border-left: 5px solid var(--accent-color);
-      padding-left: 0.6rem;
+      color: #00796b;
       margin-bottom: 1rem;
     }
-
     ul, ol {
-      padding-left: 1.2rem;
+      padding-left: 1.5rem;
+      margin-top: 1rem;
     }
     ul li::marker {
-      color: var(--accent-color);
+      color: #45cbbd;
     }
-
     blockquote {
       background: #f0f0f0;
-      border-left: 5px solid var(--accent-color);
-      margin: 1rem 0;
       padding: 1rem;
-      font-style: italic;
+      border-left: 5px solid #00796b;
+      margin: 1rem 0;
     }
-
-    .faq details {
-      margin-bottom: 1rem;
-      border: 1px solid #ccc;
-      border-radius: 5px;
-      background: #fdfdfd;
-      padding: 0.5rem 1rem;
+    cite {
+      display: block;
+      margin-top: 0.5rem;
+      font-size: 0.9rem;
+      color: #555;
     }
-    .faq summary {
+    details {
+      margin: 1rem 0;
+      padding: 0.8rem;
+      background: #f9f9f9;
+      border-left: 4px solid #00796b;
+      border-radius: 6px;
+    }
+    summary {
       font-weight: bold;
-      color: var(--primary-color);
       cursor: pointer;
+      color: #00796b;
     }
-    .faq details[open] summary {
-      color: #004d40;
+    iframe {
+      border: none;
+      width: 100%;
     }
-
     footer {
+      background: #eee;
+      padding: 1.5rem;
       text-align: center;
       font-size: 0.9rem;
-      background: #eee;
-      padding: 1rem;
     }
-
     @media (max-width: 600px) {
       header h1 {
-        font-size: 1.8rem;
+        font-size: 1.6rem;
       }
-      main {
-        padding: 1rem;
+      section {
+        padding: 1.5rem 1rem;
       }
     }
   </style>
 </head>
 <body>
-  <header>
-    <h1>退職の不安、すべてお任せください。</h1>
-    <p>安心退職・全国対応・定額料金・相談無制限</p>
-    <a class="button" href="https://lin.ee/rFcstUm3" target="_blank">LINEで無料相談する</a>
-  </header>
 
-  <main>
-    <section>
-      <h2>こんなお悩み、ありませんか？</h2>
-      <ul>
-        <li>会社に行くのがつらい、でも辞められない</li>
-        <li>辞めたいと言い出せず、ズルズル続いている</li>
-        <li>退職したいけど、手続きや書類がわからない</li>
-        <li>上司に怒られるのが怖い</li>
-        <li>家族や周囲に相談できない</li>
-        <li>次の職場が決まる前でも辞められるの？</li>
-      </ul>
-    </section>
+<header>
+  <h1>退職の不安、すべてお任せください。</h1>
+  <p>安心退職・全国対応・定額料金・相談無制限</p>
+  <a class="button" href="https://lin.ee/rFcstUm3" target="_blank">LINEで無料相談する</a>
+</header>
 
-    <section>
-      <h2>私たちが選ばれる理由</h2>
-      <ul>
-        <li><strong>安心退職：</strong> 社労士連携の合法サービス</li>
-        <li><strong>定額料金：</strong> 19,800円（税込）・追加費用なし</li>
-        <li><strong>全国対応：</strong> LINEで完結・匿名OK</li>
-        <li><strong>即日対応：</strong> 当日中の会社連絡も可</li>
-        <li><strong>守秘徹底：</strong> 個人情報厳守</li>
-      </ul>
-    </section>
+<section>
+  <h2>こんなお悩み、ありませんか？</h2>
+  <ul>
+    <li>「会社に行くのがつらい、でも辞められない…」</li>
+    <li>「辞めたいと言い出せず、ズルズル続いている」</li>
+    <li>「退職したいけど、手続きや書類がわからない」</li>
+    <li>「上司に怒られるのが怖い」</li>
+    <li>「家族や周囲に相談できない」</li>
+    <li>「次の職場が決まる前でも辞められるの？」</li>
+  </ul>
+</section>
 
-    <section>
-      <h2>お客様の声</h2>
-      <blockquote>
-        「精神的に限界だった時に、LINEで話を聞いてもらえて救われました。会社にも一切行かずに退職できて、本当に感謝しています。」<br>
-        — 20代 女性（販売職）
-      </blockquote>
-      <blockquote>
-        「明確な説明と素早い対応で安心できました。親にも知られずに辞められました。」<br>
-        — 30代 男性（IT企業）
-      </blockquote>
-    </section>
+<section>
+  <h2>私たちが選ばれる理由</h2>
+  <ul>
+    <li><strong>安心退職：</strong> 専門家と連携した合法・安心の退職</li>
+    <li><strong>定額料金：</strong> 19,800円（税込）・追加費用なし</li>
+    <li><strong>全国対応：</strong> LINEで完結・匿名相談もOK</li>
+    <li><strong>即日対応：</strong> ご相談当日に会社へ連絡も可能</li>
+    <li><strong>守秘徹底：</strong> 個人情報は外部に一切開示しません</li>
+  </ul>
+</section>
 
-    <section>
-      <h2>料金プラン</h2>
-      <p><strong>19,800円（税込）</strong> の安心定額制</p>
-      <ul>
-        <li>即日対応</li>
-        <li>会社への連絡代行</li>
-        <li>書類サポート・相談無制限</li>
-        <li>退職完了まで伴走サポート</li>
-      </ul>
-    </section>
+<section>
+  <h2>お客様の声</h2>
+  <blockquote>
+    「精神的に限界だった時に、LINEで話を聞いてもらえて救われました。会社にも一切行かずに退職できて、本当に感謝しています。」
+    <cite>— 20代 女性（販売職）</cite>
+  </blockquote>
+  <blockquote>
+    「最初は不安でしたが、明確な説明と素早い対応で安心できました。親にも知られずに辞められました。」
+    <cite>— 30代 男性（IT企業）</cite>
+  </blockquote>
+</section>
 
-    <section>
-      <h2>ご利用の流れ</h2>
-      <ol>
-        <li>LINEまたはフォームから無料相談</li>
-        <li>お申し込み・お支払い</li>
-        <li>会社へ連絡</li>
-        <li>退職完了までサポート</li>
-      </ol>
-    </section>
+<section>
+  <h2>料金プラン</h2>
+  <p>安心の定額：<strong>19,800円（税込）</strong></p>
+  <ul>
+    <li>✓ 即日対応</li>
+    <li>✓ 会社への連絡代行</li>
+    <li>✓ 書類サポート・相談無制限</li>
+    <li>✓ 退職完了まで伴走サポート</li>
+  </ul>
+</section>
 
-    <section class="faq">
-      <h2>よくある質問</h2>
-      <details><summary>本当に退職できますか？</summary><p>はい、全件成功しています。</p></details>
-      <details><summary>会社に行かずに辞められますか？</summary><p>はい、出社不要です。</p></details>
-      <details><summary>親に知られたくありません。</summary><p>連絡手段はLINE・メールなので安心です。</p></details>
-    </section>
+<section>
+  <h2>よくある質問</h2>
+  <details><summary>Q. 本当に退職できますか？</summary><p>A. はい、これまでご依頼いただいたすべての方が無事に退職されています。</p></details>
+  <details><summary>Q. 上司と一切連絡を取りたくないのですが…</summary><p>A. ご本人が会社と連絡を取る必要は一切ありません。当社がすべて代行します。</p></details>
+  <details><summary>Q. 職場に行かずに辞められますか？</summary><p>A. はい、出社せずに退職することが可能です。</p></details>
+  <details><summary>Q. 無料相談だけでも大丈夫ですか？</summary><p>A. はい。無理な営業は一切いたしません。お気軽にご相談ください。</p></details>
+</section>
 
-    <section>
-      <h2>まずは無料相談から</h2>
-      <p>24時間受付中。お気軽にどうぞ。</p>
-      <a class="button" href="https://lin.ee/rFcstUm3" target="_blank">LINEで相談する</a>
-    </section>
-  </main>
+<section>
+  <h2>お問い合わせフォーム</h2>
+  <iframe 
+    src="https://docs.google.com/forms/d/e/1FAIpQLScO6mUwR8h5E5WHxB2u-93m6k95iZS9TJE8FwXEfXWChdkDhw/viewform?embedded=true" 
+    height="2655">
+    読み込んでいます…
+  </iframe>
+</section>
 
-  <footer>
-    <p>運営者：合同会社MOG<br>
-    メール：mog.resignation.agency@gmail.com<br>
-    <a href="tokutei.html">特定商取引法に基づく表記</a></p>
-  </footer>
+<footer>
+  <p>運営者：合同会社MOG<br />
+  メール：mog.resignation.agency@gmail.com<br />
+  <a href="tokutei.html">特定商取引法に基づく表記</a></p>
+</footer>
+
 </body>
 </html>
