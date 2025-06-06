@@ -22,34 +22,29 @@
       padding: 3rem 2rem;
       text-align: center;
     }
-    header h2 {
-      font-size: 1.2rem;
-      margin-bottom: 0.5rem;
-      text-shadow: 1px 1px 2px #000;
-      color: white;
-      letter-spacing: 1px;
+    header h2, header h1, header p {
+      text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.6);
     }
     header h1 {
       font-size: 2rem;
       margin-bottom: 1rem;
-      text-shadow: 1px 1px 2px #000;
-      color: white;
     }
-    header p {
-      color: white;
-      text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.6);
+    header h2 {
+      font-size: 1.2rem;
+      margin-bottom: 0.5rem;
     }
-section {
-  background: #ffffff;
-  border-radius: 12px;
-  box-shadow: 0 2px 12px rgba(0,0,0,0.08);
-  padding: 2rem;
-  margin-bottom: 2rem;
-  transition: box-shadow 0.3s ease;
-}
-section:hover {
-  box-shadow: 0 4px 16px rgba(0,0,0,0.12);
-}
+    section {
+      padding: 2rem 1.5rem;
+      max-width: 800px;
+      margin: 1rem auto;
+    }
+    .card {
+      background-color: white;
+      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+      border-radius: 12px;
+      padding: 2rem;
+      margin-bottom: 2rem;
+    }
     h1, h2 {
       color: #00796b;
     }
@@ -59,27 +54,19 @@ section:hover {
     ul li::marker {
       color: #45cbbd;
     }
-.button {
-  display: inline-block;
-  padding: 1rem 2rem;
-  background: linear-gradient(135deg, #00796b, #43a047);
-  color: white;
-  border-radius: 8px;
-  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
-  transition: transform 0.2s ease, background 0.3s ease;
-}
-.button:hover {
-  background: #00695c;
-  transform: scale(1.05);
-}
-    .voice-card {
-  background: #f1f8f6;
-  border-left: 5px solid #00796b;
-  padding: 1rem;
-  margin-bottom: 1rem;
-  border-radius: 8px;
-  font-style: italic;
-}
+    .button {
+      display: inline-block;
+      padding: 1rem 2rem;
+      background-color: #4CAF50;
+      color: white;
+      text-decoration: none;
+      border-radius: 5px;
+      margin-top: 1rem;
+      font-weight: bold;
+    }
+    .button:hover {
+      background-color: #43a047;
+    }
     footer {
       text-align: center;
       font-size: 0.9rem;
@@ -120,7 +107,7 @@ section:hover {
   <a class="button" href="https://lin.ee/rFcstUm3" target="_blank">LINEで無料相談する</a>
 </header>
 
-<section>
+<section class="card">
   <h2>こんなお悩み、ありませんか？</h2>
   <ul>
     <li>「会社に行くのがつらい、でも辞められない…」</li>
@@ -133,7 +120,7 @@ section:hover {
   <p>一人で抱え込まず、退職のプロにご相談ください。あなたの人生の一歩を、私たちが支えます。</p>
 </section>
 
-<section>
+<section class="card">
   <h2>私たちが選ばれる理由</h2>
   <ul>
     <li><strong>安心退職：</strong> 専門家と連携した合法・安心の退職</li>
@@ -144,7 +131,7 @@ section:hover {
   </ul>
 </section>
 
-<section>
+<section class="card">
   <h2>運営者情報・信頼性</h2>
   <p><strong>退職代行もぉゴメン by MOG Solutions</strong>（運営：<strong>合同会社MOG</strong>）は、法令に則った安心の退職サポートを提供しています。</p>
   <ul>
@@ -153,24 +140,17 @@ section:hover {
     <li>✓ 守秘義務とプライバシーを厳守</li>
     <li>✓ 特定商取引法の表示・契約書面あり</li>
   </ul>
-  <p>運営法人：合同会社MOG<br>
-  <!--連絡先：<a href="mailto:mog.resignation.agency@gmail.com">mog.resignation.agency@gmail.com</a>--></p>
+  <p>運営法人：合同会社MOG</p>
 </section>
 
-<section>
+<section class="card">
   <h2>お客様の声</h2>
-  <div class="voice-card">
-  <p>「精神的に限界だった時に、LINEで話を聞いてもらえて救われました。会社にも一切行かずに退職できて、本当に感謝しています。」</p>
-    <cite>— 20代 女性（販売職）</cite>
-  </div>
-  <div class="voice-card">
-    <p></p>「最初は不安でしたが、明確な説明と素早い対応で安心できました。親にも知られずに辞められました。」</p>
-    <cite>— 30代 男性（IT企業）</cite>
-  </div>
+  <blockquote>「精神的に限界だった時に、LINEで話を聞いてもらえて救われました。会社にも一切行かずに退職できて、本当に感謝しています。」<br><cite>— 20代 女性（販売職）</cite></blockquote>
+  <blockquote>「最初は不安でしたが、明確な説明と素早い対応で安心できました。親にも知られずに辞められました。」<br><cite>— 30代 男性（IT企業）</cite></blockquote>
   <p>※一部内容を要約・匿名加工しています。</p>
 </section>
 
-<section>
+<section class="card">
   <h2>料金プラン</h2>
   <p>安心の定額：<strong>19,800円（税込）</strong></p>
   <ul>
@@ -181,7 +161,7 @@ section:hover {
   </ul>
 </section>
 
-<section>
+<section class="card">
   <h2>ご利用の流れ（簡単4ステップ）</h2>
   <ol>
     <li>LINEまたはフォームから無料相談</li>
@@ -191,7 +171,7 @@ section:hover {
   </ol>
 </section>
 
-<section>
+<section class="card">
   <h2>退職代行のお役立ちブログ</h2>
   <p>退職に関する疑問や不安にプロの視点で答えます。</p>
   <ul>
@@ -202,8 +182,8 @@ section:hover {
     <li><a href="/blog/yukyuu-shouka.html">有給消化を確実にする方法とは？</a></li>
   </ul>
 </section>
-  
-<section class="faq">
+
+<section class="card faq">
   <h2>よくある質問</h2>
   <details><summary>Q. 本当に退職できますか？</summary><p>A. はい、これまでご依頼いただいたすべての方が無事に退職されています。</p></details>
   <details><summary>Q. 上司と一切連絡を取りたくないのですが…</summary><p>A. ご本人が会社と連絡を取る必要は一切ありません。当社がすべて代行します。</p></details>
@@ -217,14 +197,13 @@ section:hover {
   <details><summary>Q. 無料相談だけでも大丈夫ですか？</summary><p>A. はい。無理な営業は一切いたしません。お気軽にご相談ください。</p></details>
 </section>
 
-<section>
+<section class="card">
   <h2>まずは無料相談から</h2>
   <p>24時間受付中。お気軽にご相談ください。匿名でも大丈夫です。</p>
   <a class="button" href="https://lin.ee/rFcstUm3" target="_blank">LINEで相談する</a>
 </section>
 
-<!-- ▼ Googleフォーム埋め込みセクション -->
-<section>
+<section class="card">
   <h2>フォームからのお問い合わせ</h2>
   <p>LINE以外でのお問い合わせはこちらのフォームをご利用ください。</p>
   <iframe 
@@ -238,7 +217,7 @@ section:hover {
     読み込んでいます…
   </iframe>
 </section>
-  
+
 <footer>
   <p>運営者：合同会社MOG<br />
   メール：mog.resignation.agency@gmail.com<br />
